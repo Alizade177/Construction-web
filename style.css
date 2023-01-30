@@ -1,0 +1,403 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-container{
+    position: fixed;
+    width: 100%;
+    background-color:rgb(238, 248, 248); 
+    
+}
+
+.nav-continer{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 30px;
+    
+}
+
+.buttons-container{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly ;  
+}
+
+.buttons-container i{
+    padding-left: 5px;
+}
+
+.buttons-container a{
+    font-weight:600;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.5s;
+}
+
+.buttons-container a:hover{
+   color: rgb(99, 99, 241);
+
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.header-img{
+    background-image: url('/headerimage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    width: 100%;
+    height: 800px;
+}
+
+.header-container h1{
+    font-size: 50px;
+    flex-direction: column;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+    padding-left: 450px;
+}
+
+.header-container p{
+    
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+}
+
+
+
+.button1 {
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    margin-left: 820px;
+    padding: 10px 10px;
+    background-color: rgb(6, 6, 145);
+    border-width: 0px;
+    
+}
+
+.button2 {
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: red;
+    border-width: 0px;
+}
+
+.main-container{
+    width: 100%;
+    background-color:#fff ;
+}
+
+
+.main-img{
+    width: 300px;
+    height: 400px;
+    margin-left: 270px;
+    margin-top: 180px;
+}
+
+.info{
+    display: flex;
+    
+}
+
+.main-text{
+    width: 40%;
+    height: 50%;
+    margin-top: 85px;  
+    margin-left: 80px;
+}
+
+.main-text h2{
+    width: 50%;
+    color: #0940A9;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+
+.main-span{
+    width: 3px;
+    height: 4px;
+    background-color: red;
+}
+
+.main-text section {
+    width: 50px;
+    height:2px;
+    background: linear-gradient(90deg, rgba(252,8,8,1) 53%, rgba(2,0,36,1) 55%, rgba(29,0,255,1) 55%);
+    margin-right: 30px;
+}
+
+.main-p1{
+    color: rgb(88, 85, 85);
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.main-p2{
+    color:  rgb(104, 100, 100);
+    margin-top: 17px;
+}
+
+
+.mainlist{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align:center;
+}
+
+.mainlist1{
+   color: #838085;
+   font-size: 18px;
+   list-style: none;
+   padding: 50px 0px;
+   margin-right: 90px;
+ 
+  
+}
+
+.mainlist2{
+    color: #838085;
+    font-size: 18px;
+    list-style: none;
+    margin-right: 90px;
+    
+}
+
+.space{
+    padding: 6px 0px;
+}
+
+
+.mainlist i{
+  padding-right: 8px;
+}
+
+
+.mainsentences{
+    color: #1c4696;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.mainsentences2{
+    margin-top: 8px;
+}
+
+.mainsentences2 span{
+    margin-bottom: 10px;
+    color:#000;
+   font-size: 20px;
+   font-style: italic;
+   
+}
+
+.mainsentences2 p{
+    color: #838085;
+}
+
+.content-wrap{ 
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height:260px;
+    background-color:#E1DDDD
+}
+
+.wrap-text{
+   width: 30%;
+   color: #0A61B4;
+   font-size: 40px;
+   font-weight: 700;
+   padding-top: 40px;
+}
+
+.wrap-text span{
+    color:  rgb(168, 151, 151);
+    font-size: 18px;
+}
+
+.wrap-text2 {
+    font-size: 14px;
+    font-weight: 400;
+    width: 25%;
+    color:rgb(143, 139, 139);
+    padding-top: 40px;
+}
+
+.wrap-text2 span {
+    font-size: 15px;
+    width: 20%;
+    font-weight: 500;
+    color: rgb(68, 66, 66);
+    
+}
+
+.main-home-image{
+    background-image: url("/house.jpg");
+    width: 100%;
+    height: 250px;
+    opacity:5;
+}
+
+.home-text{
+    display: table;
+    padding: 60px;
+    padding-left: 33%;
+    text-align: center;
+    color:#fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.home-text span{
+    color: red;
+}
+
+
+.photo{
+    width: 60%;   
+    height: 60%;
+    background-color: #fff;
+    
+}
+
+.photo h1{
+    font-size:28px;
+    color: #0A61B4;
+    margin-left: 15px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.photo p{
+    font-size:15px;
+    color: grey;
+    margin-left: 15px;
+    margin-bottom:30px ;
+    
+}
+
+
+.photo{
+    margin-left: 300px;  
+    margin-bottom: 50px;
+}
+
+
+.box{
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin-left: 12px;
+  
+}
+
+
+img{
+    width: 100%;
+}
+
+.photo section{
+    width: 50px;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(252,8,8,1) 53%, rgba(2,0,36,1) 55%, rgba(29,0,255,1) 55%);
+}
+
+
+ .photo img:hover{
+    transform: scale(1.1);
+}
+
+.footer-form{
+    width: 80%;
+    height: 120px;
+    background-color: red;
+    margin-left: 160px;   
+}
+
+.footer-form{
+    display:flex;
+    padding-left: 200px;
+}
+
+.footer-form div{
+    color: #fff;
+    width: 20%;    
+    font-size: 17px;
+    font-weight: 900;
+    margin: 10px 30px;
+      
+}
+
+.footer-form div i{
+    width: 35px;
+    height: 35px;
+    background-color:#0A025F;
+    margin: 10px;
+    margin-top: 15px;
+   
+}
+
+.footer-info i{
+    font-size: 35px; 
+}
+
+.footer-form div span{
+    font-size: 14px;
+    margin-left: 10px;
+    padding-left: 50px;
+}
+    
+#dropdown{
+    position: relative;
+    list-style: none;
+}
+
+#dropdown:hover .nav-dropdown{
+    display: block;
+}
+
+.nav-dropdown{
+   
+    display: none;
+    position:absolute;
+}
+
+.dropdown-buttons{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.dropdown-buttons a{
+    
+    color: #000;
+    background-color: #fff;
+    padding: 8px 18px;
+    border-top: 1px solid rgb(216, 205, 205);
+}
+
